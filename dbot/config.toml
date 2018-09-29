@@ -1,0 +1,19 @@
+# Main configuration file
+
+[dev]
+debug = 'False'
+
+[logging]
+filename = 'discord.log'
+format = '[%(asctime)s] [%(name)s] (%(levelname)s) %(message)s'
+
+[discord]
+token = ''
+oauth_url = ''
+
+[bot]
+prefix  = '!'
+extensions = [
+    'general',
+    'fun',
+]
