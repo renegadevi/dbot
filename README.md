@@ -1,13 +1,14 @@
-# # Dbot - Discord command bot
+# Dbot - Discord command bot
 A small modular discord micro-bot written in Python.
 
 Originally it was a bot made for a private community so the original code may
 be a few years old but I've updated it for Python3.6 (Discord dosen't yet 
-support 3.7 as of writing) and stripped down the bot to a skeleton of what it
-originally so it's a easy to running and expand with your own extensions.
+support 3.7 yet as of writing this). It's a stripped down skeleton of what it
+originally once was so it's a easy to get up and running and then expand with
+new extensions depending on what it will be used for.
 
 
-## TLDR (Python 3.6)
+## TLDR (Python 3.6.x)
 ```sh
 pip install -r requrements.txt
 ./main.py
@@ -36,10 +37,7 @@ nano config.toml
 ```
 
 
-## MacOS High Sierra
-
-
-Important note:
+## Important Note
 Make sure you are authorizing your bot to allowing the bot yo join your server
 by using this link and replacing <CLIENT_ID> with your client_id number.
 https://discordapp.com/oauth2/authorize?client_id=<CLIENT_ID>&scope=bot
